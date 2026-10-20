@@ -1,8 +1,13 @@
 # Changelog
 
-## Unreleased
+## 0.2.0
 
-- Moved into the EverMind AI Plugins repository as `pi/`.
+- Inject a separate `everos-agent` protocol: recall cases/skills before a
+  non-trivial task, record a full trajectory after more than three tool-call
+  rounds. Distillation stays on EverOS Cloud.
+- Optional `assistantSenderId` (default `assistant-<userId>`). `/everos status`
+  and doctor show identity, whether record/recall are online, the quality gate,
+  and that forget keeps learned skills.
 
 ## 0.1.2
 
